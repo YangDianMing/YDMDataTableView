@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E20C8D51DC73799001D5B17 /* YDMDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E20C8D31DC73799001D5B17 /* YDMDataTableViewCell.m */; };
+		3EF3CFDB1DC7296600A33C42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3CFDA1DC7296600A33C42 /* main.m */; };
+		3EF3CFDE1DC7296600A33C42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3CFDD1DC7296600A33C42 /* AppDelegate.m */; };
+		3EF3CFE11DC7296600A33C42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3CFE01DC7296600A33C42 /* ViewController.m */; };
+		3EF3CFE41DC7296600A33C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3CFE21DC7296600A33C42 /* Main.storyboard */; };
+		3EF3CFE71DC7296600A33C42 /* YDMDataTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3CFE51DC7296600A33C42 /* YDMDataTableView.xcdatamodeld */; };
+		3EF3CFE91DC7296600A33C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3CFE81DC7296600A33C42 /* Assets.xcassets */; };
+		3EF3CFEC1DC7296600A33C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3CFEA1DC7296600A33C42 /* LaunchScreen.storyboard */; };
+		3EF3CFF71DC7296600A33C42 /* YDMDataTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3CFF61DC7296600A33C42 /* YDMDataTableViewTests.m */; };
+		3EF3D0021DC7296600A33C42 /* YDMDataTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3D0011DC7296600A33C42 /* YDMDataTableViewUITests.m */; };
+		3EF3D0151DC72FE400A33C42 /* YDMDataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3D0141DC72FE400A33C42 /* YDMDataTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF3CFF31DC7296600A33C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF3CFCE1DC7296600A33C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF3CFD51DC7296600A33C42;
+			remoteInfo = YDMDataTableView;
+		};
+		3EF3CFFE1DC7296600A33C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF3CFCE1DC7296600A33C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF3CFD51DC7296600A33C42;
+			remoteInfo = YDMDataTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E20C8D21DC73799001D5B17 /* YDMDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMDataTableViewCell.h; sourceTree = "<group>"; };
+		3E20C8D31DC73799001D5B17 /* YDMDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDMDataTableViewCell.m; sourceTree = "<group>"; };
+		3EF3CFD61DC7296600A33C42 /* YDMDataTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDMDataTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF3CFDA1DC7296600A33C42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EF3CFDC1DC7296600A33C42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EF3CFDD1DC7296600A33C42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EF3CFDF1DC7296600A33C42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EF3CFE01DC7296600A33C42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EF3CFE31DC7296600A33C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF3CFE61DC7296600A33C42 /* YDMDataTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YDMDataTableView.xcdatamodel; sourceTree = "<group>"; };
+		3EF3CFE81DC7296600A33C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EF3CFEB1DC7296600A33C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EF3CFED1DC7296600A33C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF3CFF21DC7296600A33C42 /* YDMDataTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDMDataTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF3CFF61DC7296600A33C42 /* YDMDataTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMDataTableViewTests.m; sourceTree = "<group>"; };
+		3EF3CFF81DC7296600A33C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF3CFFD1DC7296600A33C42 /* YDMDataTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDMDataTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF3D0011DC7296600A33C42 /* YDMDataTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMDataTableViewUITests.m; sourceTree = "<group>"; };
+		3EF3D0031DC7296600A33C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF3D0131DC72FE400A33C42 /* YDMDataTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMDataTableView.h; sourceTree = "<group>"; };
+		3EF3D0141DC72FE400A33C42 /* YDMDataTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDMDataTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF3CFD31DC7296600A33C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF3CFEF1DC7296600A33C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF3CFFA1DC7296600A33C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF3CFCD1DC7296600A33C42 = {
+			isa = PBXGroup;
+			children = (
+				3EF3CFD81DC7296600A33C42 /* YDMDataTableView */,
+				3EF3CFF51DC7296600A33C42 /* YDMDataTableViewTests */,
+				3EF3D0001DC7296600A33C42 /* YDMDataTableViewUITests */,
+				3EF3CFD71DC7296600A33C42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF3CFD71DC7296600A33C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3CFD61DC7296600A33C42 /* YDMDataTableView.app */,
+				3EF3CFF21DC7296600A33C42 /* YDMDataTableViewTests.xctest */,
+				3EF3CFFD1DC7296600A33C42 /* YDMDataTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF3CFD81DC7296600A33C42 /* YDMDataTableView */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3D0121DC72B0C00A33C42 /* YDMDataTableView */,
+				3EF3CFDC1DC7296600A33C42 /* AppDelegate.h */,
+				3EF3CFDD1DC7296600A33C42 /* AppDelegate.m */,
+				3EF3CFDF1DC7296600A33C42 /* ViewController.h */,
+				3EF3CFE01DC7296600A33C42 /* ViewController.m */,
+				3EF3CFE21DC7296600A33C42 /* Main.storyboard */,
+				3EF3CFE81DC7296600A33C42 /* Assets.xcassets */,
+				3EF3CFEA1DC7296600A33C42 /* LaunchScreen.storyboard */,
+				3EF3CFED1DC7296600A33C42 /* Info.plist */,
+				3EF3CFE51DC7296600A33C42 /* YDMDataTableView.xcdatamodeld */,
+				3EF3CFD91DC7296600A33C42 /* Supporting Files */,
+			);
+			path = YDMDataTableView;
+			sourceTree = "<group>";
+		};
+		3EF3CFD91DC7296600A33C42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3CFDA1DC7296600A33C42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EF3CFF51DC7296600A33C42 /* YDMDataTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3CFF61DC7296600A33C42 /* YDMDataTableViewTests.m */,
+				3EF3CFF81DC7296600A33C42 /* Info.plist */,
+			);
+			path = YDMDataTableViewTests;
+			sourceTree = "<group>";
+		};
+		3EF3D0001DC7296600A33C42 /* YDMDataTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3D0011DC7296600A33C42 /* YDMDataTableViewUITests.m */,
+				3EF3D0031DC7296600A33C42 /* Info.plist */,
+			);
+			path = YDMDataTableViewUITests;
+			sourceTree = "<group>";
+		};
+		3EF3D0121DC72B0C00A33C42 /* YDMDataTableView */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3D0131DC72FE400A33C42 /* YDMDataTableView.h */,
+				3EF3D0141DC72FE400A33C42 /* YDMDataTableView.m */,
+				3E20C8D21DC73799001D5B17 /* YDMDataTableViewCell.h */,
+				3E20C8D31DC73799001D5B17 /* YDMDataTableViewCell.m */,
+			);
+			name = YDMDataTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF3CFD51DC7296600A33C42 /* YDMDataTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF3D0061DC7296600A33C42 /* Build configuration list for PBXNativeTarget "YDMDataTableView" */;
+			buildPhases = (
+				3EF3CFD21DC7296600A33C42 /* Sources */,
+				3EF3CFD31DC7296600A33C42 /* Frameworks */,
+				3EF3CFD41DC7296600A33C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDMDataTableView;
+			productName = YDMDataTableView;
+			productReference = 3EF3CFD61DC7296600A33C42 /* YDMDataTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF3CFF11DC7296600A33C42 /* YDMDataTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF3D0091DC7296600A33C42 /* Build configuration list for PBXNativeTarget "YDMDataTableViewTests" */;
+			buildPhases = (
+				3EF3CFEE1DC7296600A33C42 /* Sources */,
+				3EF3CFEF1DC7296600A33C42 /* Frameworks */,
+				3EF3CFF01DC7296600A33C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF3CFF41DC7296600A33C42 /* PBXTargetDependency */,
+			);
+			name = YDMDataTableViewTests;
+			productName = YDMDataTableViewTests;
+			productReference = 3EF3CFF21DC7296600A33C42 /* YDMDataTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF3CFFC1DC7296600A33C42 /* YDMDataTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF3D00C1DC7296600A33C42 /* Build configuration list for PBXNativeTarget "YDMDataTableViewUITests" */;
+			buildPhases = (
+				3EF3CFF91DC7296600A33C42 /* Sources */,
+				3EF3CFFA1DC7296600A33C42 /* Frameworks */,
+				3EF3CFFB1DC7296600A33C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF3CFFF1DC7296600A33C42 /* PBXTargetDependency */,
+			);
+			name = YDMDataTableViewUITests;
+			productName = YDMDataTableViewUITests;
+			productReference = 3EF3CFFD1DC7296600A33C42 /* YDMDataTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF3CFCE1DC7296600A33C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "杨殿铭";
+				TargetAttributes = {
+					3EF3CFD51DC7296600A33C42 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3EF3CFF11DC7296600A33C42 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EF3CFD51DC7296600A33C42;
+					};
+					3EF3CFFC1DC7296600A33C42 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EF3CFD51DC7296600A33C42;
+					};
+				};
+			};
+			buildConfigurationList = 3EF3CFD11DC7296600A33C42 /* Build configuration list for PBXProject "YDMDataTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF3CFCD1DC7296600A33C42;
+			productRefGroup = 3EF3CFD71DC7296600A33C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF3CFD51DC7296600A33C42 /* YDMDataTableView */,
+				3EF3CFF11DC7296600A33C42 /* YDMDataTableViewTests */,
+				3EF3CFFC1DC7296600A33C42 /* YDMDataTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF3CFD41DC7296600A33C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF3CFEC1DC7296600A33C42 /* LaunchScreen.storyboard in Resources */,
+				3EF3CFE91DC7296600A33C42 /* Assets.xcassets in Resources */,
+				3EF3CFE41DC7296600A33C42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF3CFF01DC7296600A33C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF3CFFB1DC7296600A33C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF3CFD21DC7296600A33C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF3CFE71DC7296600A33C42 /* YDMDataTableView.xcdatamodeld in Sources */,
+				3E20C8D51DC73799001D5B17 /* YDMDataTableViewCell.m in Sources */,
+				3EF3CFE11DC7296600A33C42 /* ViewController.m in Sources */,
+				3EF3CFDE1DC7296600A33C42 /* AppDelegate.m in Sources */,
+				3EF3D0151DC72FE400A33C42 /* YDMDataTableView.m in Sources */,
+				3EF3CFDB1DC7296600A33C42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF3CFEE1DC7296600A33C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF3CFF71DC7296600A33C42 /* YDMDataTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF3CFF91DC7296600A33C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF3D0021DC7296600A33C42 /* YDMDataTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF3CFF41DC7296600A33C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF3CFD51DC7296600A33C42 /* YDMDataTableView */;
+			targetProxy = 3EF3CFF31DC7296600A33C42 /* PBXContainerItemProxy */;
+		};
+		3EF3CFFF1DC7296600A33C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF3CFD51DC7296600A33C42 /* YDMDataTableView */;
+			targetProxy = 3EF3CFFE1DC7296600A33C42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EF3CFE21DC7296600A33C42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF3CFE31DC7296600A33C42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF3CFEA1DC7296600A33C42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF3CFEB1DC7296600A33C42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EF3D0041DC7296600A33C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF3D0051DC7296600A33C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF3D0071DC7296600A33C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YDMDataTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydm.YDMDataTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EF3D0081DC7296600A33C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YDMDataTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydm.YDMDataTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3EF3D00A1DC7296600A33C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YDMDataTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydm.YDMDataTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YDMDataTableView.app/YDMDataTableView";
+			};
+			name = Debug;
+		};
+		3EF3D00B1DC7296600A33C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YDMDataTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydm.YDMDataTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YDMDataTableView.app/YDMDataTableView";
+			};
+			name = Release;
+		};
+		3EF3D00D1DC7296600A33C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YDMDataTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydm.YDMDataTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YDMDataTableView;
+			};
+			name = Debug;
+		};
+		3EF3D00E1DC7296600A33C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YDMDataTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydm.YDMDataTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YDMDataTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF3CFD11DC7296600A33C42 /* Build configuration list for PBXProject "YDMDataTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF3D0041DC7296600A33C42 /* Debug */,
+				3EF3D0051DC7296600A33C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF3D0061DC7296600A33C42 /* Build configuration list for PBXNativeTarget "YDMDataTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF3D0071DC7296600A33C42 /* Debug */,
+				3EF3D0081DC7296600A33C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF3D0091DC7296600A33C42 /* Build configuration list for PBXNativeTarget "YDMDataTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF3D00A1DC7296600A33C42 /* Debug */,
+				3EF3D00B1DC7296600A33C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF3D00C1DC7296600A33C42 /* Build configuration list for PBXNativeTarget "YDMDataTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF3D00D1DC7296600A33C42 /* Debug */,
+				3EF3D00E1DC7296600A33C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3EF3CFE51DC7296600A33C42 /* YDMDataTableView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EF3CFE61DC7296600A33C42 /* YDMDataTableView.xcdatamodel */,
+			);
+			currentVersion = 3EF3CFE61DC7296600A33C42 /* YDMDataTableView.xcdatamodel */;
+			path = YDMDataTableView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3EF3CFCE1DC7296600A33C42 /* Project object */;
+}
